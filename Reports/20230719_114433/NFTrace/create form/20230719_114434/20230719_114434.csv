@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+create form,Chrome 114.0.0.0,,,2023-07-19 11:44:37,2023-07-19 11:44:49,12.162s,PASSED
+,,,,,,,
+Test Cases/NFTrace/Login,Chrome 114.0.0.0,,,2023-07-19 11:44:37,2023-07-19 11:44:42,5.187s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-19 11:44:37,2023-07-19 11:44:40,2.389s,PASSED
+"navigateToUrl(""https://app.nfttrace.com/login"")",Chrome 114.0.0.0,,,2023-07-19 11:44:40,2023-07-19 11:44:40,0.697s,PASSED
+"setText(findTestObject(""Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email""), ""superadmin@chaincodeconsulting.com"")",Chrome 114.0.0.0,,,2023-07-19 11:44:40,2023-07-19 11:44:41,0.957s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password""), ""lt7kXPiIKwaT+RdC1Uoh9g=="")",Chrome 114.0.0.0,,,2023-07-19 11:44:41,2023-07-19 11:44:42,0.477s,PASSED
+"click(findTestObject(""Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/button_Login""))",Chrome 114.0.0.0,,,2023-07-19 11:44:42,2023-07-19 11:44:42,0.391s,PASSED
+,,,,,,,
+Test Cases/NFTrace/Form Builder,Chrome 114.0.0.0,create form,,2023-07-19 11:44:42,2023-07-19 11:44:49,6.653s,PASSED
+"click(findTestObject(""Page_NFTtrace - Projects/a_Form Builder""))",Chrome 114.0.0.0,,,2023-07-19 11:44:43,2023-07-19 11:44:44,1.097s,PASSED
+"click(findTestObject(""Page_NFTtrace - Form Builder/button_Create new form""))",Chrome 114.0.0.0,,,2023-07-19 11:44:44,2023-07-19 11:44:44,0.697s,PASSED
+"click(findTestObject(""Page_NFTtrace - Create Form/li_Text Input""))",Chrome 114.0.0.0,,,2023-07-19 11:44:44,2023-07-19 11:44:45,0.716s,PASSED
+"click(findTestObject(""Page_NFTtrace - Create Form/li_Number Input""))",Chrome 114.0.0.0,,,2023-07-19 11:44:45,2023-07-19 11:44:46,0.840s,PASSED
+"click(findTestObject(""Page_NFTtrace - Create Form/li_Paragraph Text""))",Chrome 114.0.0.0,,,2023-07-19 11:44:46,2023-07-19 11:44:47,0.557s,PASSED
+"click(findTestObject(""Page_NFTtrace - Create Form/label_Save""))",Chrome 114.0.0.0,,,2023-07-19 11:44:47,2023-07-19 11:44:47,0.589s,PASSED
+"click(findTestObject(""Page_NFTtrace - Create Form/input_Form Name_name""))",Chrome 114.0.0.0,,,2023-07-19 11:44:47,2023-07-19 11:44:48,0.474s,PASSED
+"selectOptionByIndex(findTestObject(""Page_NFTtrace - Create Form/select_Select form typeTransaction formAsset form""), ""1"")",Chrome 114.0.0.0,,,2023-07-19 11:44:48,2023-07-19 11:44:49,0.977s,PASSED
+"click(findTestObject(""Page_NFTtrace - Create Form/button_SUBMIT""))",Chrome 114.0.0.0,,,2023-07-19 11:44:49,2023-07-19 11:44:49,0.349s,PASSED

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="create form" time="12.162" tests="2" failures="0" errors="0">
+   <testsuite name="create form" tests="2" failures="0" errors="0" time="12.162" skipped="0" timestamp="2023-07-19 11:44:37" hostname="MD Rahil - CCLNiranjan" id="Test Suites/NFTrace/create form">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MD Rahil\\Katalon Studio\\NFTtrace-repo\\Reports\\20230719_114433\\NFTrace\\create form\\20230719_114434"/>
+         <property name="logFiles" value="C:\\Users\\MD Rahil\\Katalon Studio\\NFTtrace-repo\\Reports\\20230719_114433\\NFTrace\\create form\\20230719_114434\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MD Rahil - CCLNiranjan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.8"/>
+         <property name="sessionId" value="99ebe4b3decaa561537078974bf50434"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NFTrace/Login" time="5.187" classname="Test Cases/NFTrace/Login" status="PASSED">
+         <system-out><![CDATA[2023-07-19 11:44:37 - [TEST_CASE][PASSED] - Test Cases/NFTrace/Login: Test Cases/NFTrace/Login
+
+2023-07-19 11:44:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-19 11:44:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-19 11:44:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-19 11:44:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-19 11:44:40 - [TEST_STEP][PASSED] - navigateToUrl("https://app.nfttrace.com/login"): Navigate to 'https://app.nfttrace.com/login' successfully
+
+2023-07-19 11:44:40 - [MESSAGE][PASSED] - Navigate to 'https://app.nfttrace.com/login' successfully
+
+2023-07-19 11:44:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email"), "superadmin@chaincodeconsulting.com"): Text 'superadmin@chaincodeconsulting.com' is set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email'
+
+2023-07-19 11:44:41 - [MESSAGE][PASSED] - Text 'superadmin@chaincodeconsulting.com' is set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email'
+
+2023-07-19 11:44:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password"), "lt7kXPiIKwaT+RdC1Uoh9g=="): Text ****** has been set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password'
+
+2023-07-19 11:44:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password'
+
+2023-07-19 11:44:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/button_Login")): Object: 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/button_Login' is clicked on
+
+2023-07-19 11:44:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NFTrace/Form Builder" time="6.653" classname="Test Cases/NFTrace/Form Builder" status="PASSED">
+         <system-out><![CDATA[2023-07-19 11:44:42 - [TEST_CASE][PASSED] - Test Cases/NFTrace/Form Builder: Test Cases/NFTrace/Form Builder
+
+2023-07-19 11:44:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_NFTtrace - Projects/a_Form Builder")): Object: 'Object Repository/Page_NFTtrace - Projects/a_Form Builder' is clicked on
+
+2023-07-19 11:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Projects/a_Form Builder' is clicked on
+
+2023-07-19 11:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_NFTtrace - Form Builder/button_Create new form")): Object: 'Object Repository/Page_NFTtrace - Form Builder/button_Create new form' is clicked on
+
+2023-07-19 11:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Form Builder/button_Create new form' is clicked on
+
+2023-07-19 11:44:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_NFTtrace - Create Form/li_Text Input")): Object: 'Object Repository/Page_NFTtrace - Create Form/li_Text Input' is clicked on
+
+2023-07-19 11:44:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Create Form/li_Text Input' is clicked on
+
+2023-07-19 11:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_NFTtrace - Create Form/li_Number Input")): Object: 'Object Repository/Page_NFTtrace - Create Form/li_Number Input' is clicked on
+
+2023-07-19 11:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Create Form/li_Number Input' is clicked on
+
+2023-07-19 11:44:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_NFTtrace - Create Form/li_Paragraph Text")): Object: 'Object Repository/Page_NFTtrace - Create Form/li_Paragraph Text' is clicked on
+
+2023-07-19 11:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Create Form/li_Paragraph Text' is clicked on
+
+2023-07-19 11:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_NFTtrace - Create Form/label_Save")): Object: 'Object Repository/Page_NFTtrace - Create Form/label_Save' is clicked on
+
+2023-07-19 11:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Create Form/label_Save' is clicked on
+
+2023-07-19 11:44:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_NFTtrace - Create Form/input_Form Name_name")): Object: 'Object Repository/Page_NFTtrace - Create Form/input_Form Name_name' is clicked on
+
+2023-07-19 11:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Create Form/input_Form Name_name' is clicked on
+
+2023-07-19 11:44:48 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_NFTtrace - Create Form/select_Select form typeTransaction formAsset form"), "1"): All options with index in [1] are selected on object 'Object Repository/Page_NFTtrace - Create Form/select_Select form typeTransaction formAsset form'
+
+2023-07-19 11:44:49 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_NFTtrace - Create Form/select_Select form typeTransaction formAsset form'
+
+2023-07-19 11:44:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_NFTtrace - Create Form/button_SUBMIT")): Object: 'Object Repository/Page_NFTtrace - Create Form/button_SUBMIT' is clicked on
+
+2023-07-19 11:44:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Create Form/button_SUBMIT' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-19 11:44:37 - [TEST_SUITE][PASSED] - create form: Test Cases/NFTrace/Form Builder]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
