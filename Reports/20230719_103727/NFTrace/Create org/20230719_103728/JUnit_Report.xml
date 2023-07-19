@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create org" time="154.568" tests="2" failures="0" errors="0">
+   <testsuite name="Create org" tests="2" failures="0" errors="0" time="154.568" skipped="0" timestamp="2023-07-19 10:37:32" hostname="MD Rahil - CCLNiranjan" id="Test Suites/NFTrace/Create org">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\MD Rahil\\Katalon Studio\\NFTtrace-repo\\Reports\\20230719_103727\\NFTrace\\Create org\\20230719_103728"/>
+         <property name="logFiles" value="C:\\Users\\MD Rahil\\Katalon Studio\\NFTtrace-repo\\Reports\\20230719_103727\\NFTrace\\Create org\\20230719_103728\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MD Rahil - CCLNiranjan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.5.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.8"/>
+         <property name="sessionId" value="d0c9ab8bb48eebe8431927c61d4bb2a8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/NFTrace/Login" time="8.166" classname="Test Cases/NFTrace/Login" status="PASSED">
+         <system-out><![CDATA[2023-07-19 10:37:32 - [TEST_CASE][PASSED] - Test Cases/NFTrace/Login: Test Cases/NFTrace/Login
+
+2023-07-19 10:37:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-19 10:37:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-19 10:37:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-19 10:37:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-19 10:37:36 - [TEST_STEP][PASSED] - navigateToUrl("https://app.nfttrace.com/login"): Navigate to 'https://app.nfttrace.com/login' successfully
+
+2023-07-19 10:37:37 - [MESSAGE][PASSED] - Navigate to 'https://app.nfttrace.com/login' successfully
+
+2023-07-19 10:37:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email"), "superadmin@chaincodeconsulting.com"): Text 'superadmin@chaincodeconsulting.com' is set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email'
+
+2023-07-19 10:37:39 - [MESSAGE][PASSED] - Text 'superadmin@chaincodeconsulting.com' is set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email'
+
+2023-07-19 10:37:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password"), "lt7kXPiIKwaT+RdC1Uoh9g=="): Text ****** has been set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password'
+
+2023-07-19 10:37:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password'
+
+2023-07-19 10:37:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/button_Login")): Object: 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/button_Login' is clicked on
+
+2023-07-19 10:37:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/NFTrace/Create organization" time="53.962" classname="Test Cases/NFTrace/Create organization" status="PASSED">
+         <system-out><![CDATA[2023-07-19 10:39:12 - [TEST_CASE][PASSED] - Test Cases/NFTrace/Create organization: Test Cases/NFTrace/Create organization
+
+2023-07-19 10:39:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-07-19 10:39:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-07-19 10:39:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-07-19 10:39:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-07-19 10:39:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-07-19 10:39:14 - [TEST_STEP][PASSED] - navigateToUrl("https://app.nfttrace.com/login"): Navigate to 'https://app.nfttrace.com/login' successfully
+
+2023-07-19 10:39:15 - [MESSAGE][PASSED] - Navigate to 'https://app.nfttrace.com/login' successfully
+
+2023-07-19 10:39:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email"), "superadmin@chaincodeconsulting.com"): Text 'superadmin@chaincodeconsulting.com' is set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email'
+
+2023-07-19 10:39:16 - [MESSAGE][PASSED] - Text 'superadmin@chaincodeconsulting.com' is set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email'
+
+2023-07-19 10:39:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password"), "lt7kXPiIKwaT+RdC1Uoh9g=="): Text ****** has been set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password'
+
+2023-07-19 10:39:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password'
+
+2023-07-19 10:39:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password'
+
+2023-07-19 10:39:17 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password'
+
+2023-07-19 10:39:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NFTtrace - Projects/a_Organizations")): Object: 'Object Repository/Page_NFTtrace - Projects/a_Organizations' is clicked on
+
+2023-07-19 10:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Projects/a_Organizations' is clicked on
+
+2023-07-19 10:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NFTtrace - Organizations/button_Create Organization")): Object: 'Object Repository/Page_NFTtrace - Organizations/button_Create Organization' is clicked on
+
+2023-07-19 10:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Organizations/button_Create Organization' is clicked on
+
+2023-07-19 10:39:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__organizationName"), "Central Org"): Text 'Central Org' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__organizationName'
+
+2023-07-19 10:39:20 - [MESSAGE][PASSED] - Text 'Central Org' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__organizationName'
+
+2023-07-19 10:39:20 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_NFTtrace - Organizations/select_Select Organization typeEducationSup_d2b9eb"), "1", STOP_ON_FAILURE): All options with index in [1] are selected on object 'Object Repository/Page_NFTtrace - Organizations/select_Select Organization typeEducationSup_d2b9eb'
+
+2023-07-19 10:39:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-07-19 10:39:52 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_NFTtrace - Organizations/select_Select Organization typeEducationSup_d2b9eb'. Try using Self-healing.
+
+2023-07-19 10:39:52 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_NFTtrace - Organizations/select_Select Organization typeEducationSup_d2b9eb' was broken. Propose an alternative one: '//select[@id='type']'.
+
+2023-07-19 10:39:53 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_NFTtrace - Organizations/select_Select Organization typeEducationSup_d2b9eb'
+
+2023-07-19 10:39:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__AddressLine"), "4th cross, Jali Nagar"): Text '4th cross, Jali Nagar' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__AddressLine'
+
+2023-07-19 10:39:54 - [MESSAGE][PASSED] - Text '4th cross, Jali Nagar' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__AddressLine'
+
+2023-07-19 10:39:54 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_NFTtrace - Organizations/select_Select stateAndaman and Nicobar Isla_ee6d5b"), "3", STOP_ON_FAILURE): All options with index in [3] are selected on object 'Object Repository/Page_NFTtrace - Organizations/select_Select stateAndaman and Nicobar Isla_ee6d5b'
+
+2023-07-19 10:39:55 - [MESSAGE][PASSED] - All options with index in [3] are selected on object 'Object Repository/Page_NFTtrace - Organizations/select_Select stateAndaman and Nicobar Isla_ee6d5b'
+
+2023-07-19 10:39:55 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("Page_NFTtrace - Organizations/select_Select CityBagraBarka KanaBarki Sari_840c27"), "1", STOP_ON_FAILURE): All options with index in [1] are selected on object 'Object Repository/Page_NFTtrace - Organizations/select_Select CityBagraBarka KanaBarki Sari_840c27'
+
+2023-07-19 10:39:56 - [MESSAGE][PASSED] - All options with index in [1] are selected on object 'Object Repository/Page_NFTtrace - Organizations/select_Select CityBagraBarka KanaBarki Sari_840c27'
+
+2023-07-19 10:39:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__zipcode"), "589655"): Text '589655' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__zipcode'
+
+2023-07-19 10:39:57 - [MESSAGE][PASSED] - Text '589655' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__zipcode'
+
+2023-07-19 10:39:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__GSTIN"), "22AAAAA0000A1Z9"): Text '22AAAAA0000A1Z9' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__GSTIN'
+
+2023-07-19 10:39:58 - [MESSAGE][PASSED] - Text '22AAAAA0000A1Z9' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__GSTIN'
+
+2023-07-19 10:39:58 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Page_NFTtrace - Organizations/input__file"), "C:\Users\MD Rahil\Desktop\photo-1557426272-fc759fdf7a8d.jpg"): File 'C:\Users\MD Rahil\Desktop\photo-1557426272-fc759fdf7a8d.jpg' sent to object: 'Object Repository/Page_NFTtrace - Organizations/input__file'
+
+2023-07-19 10:39:59 - [MESSAGE][PASSED] - File 'C:\Users\MD Rahil\Desktop\photo-1557426272-fc759fdf7a8d.jpg' sent to object: 'Object Repository/Page_NFTtrace - Organizations/input__file'
+
+2023-07-19 10:39:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NFTtrace - Organizations/button_Next")): Object: 'Object Repository/Page_NFTtrace - Organizations/button_Next' is clicked on
+
+2023-07-19 10:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Organizations/button_Next' is clicked on
+
+2023-07-19 10:39:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__firstName"), "Drake"): Text 'Drake' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__firstName'
+
+2023-07-19 10:40:01 - [MESSAGE][PASSED] - Text 'Drake' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__firstName'
+
+2023-07-19 10:40:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__lastName"), "settle"): Text 'settle' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__lastName'
+
+2023-07-19 10:40:02 - [MESSAGE][PASSED] - Text 'settle' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__lastName'
+
+2023-07-19 10:40:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__email"), "md.rahil+drake@chaincodeconsulting.com"): Text 'md.rahil+drake@chaincodeconsulting.com' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__email'
+
+2023-07-19 10:40:03 - [MESSAGE][PASSED] - Text 'md.rahil+drake@chaincodeconsulting.com' is set on object 'Object Repository/Page_NFTtrace - Organizations/input__email'
+
+2023-07-19 10:40:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input_Phone_mobile"), "+91 54874-51841"): Text '+91 54874-51841' is set on object 'Object Repository/Page_NFTtrace - Organizations/input_Phone_mobile'
+
+2023-07-19 10:40:04 - [MESSAGE][PASSED] - Text '+91 54874-51841' is set on object 'Object Repository/Page_NFTtrace - Organizations/input_Phone_mobile'
+
+2023-07-19 10:40:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__form-check-input")): Object: 'Object Repository/Page_NFTtrace - Organizations/input__form-check-input' is clicked on
+
+2023-07-19 10:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Organizations/input__form-check-input' is clicked on
+
+2023-07-19 10:40:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__password"), "lt7kXPiIKwaT+RdC1Uoh9g=="): Text ****** has been set on object 'Object Repository/Page_NFTtrace - Organizations/input__password'
+
+2023-07-19 10:40:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NFTtrace - Organizations/input__password'
+
+2023-07-19 10:40:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_NFTtrace - Organizations/input__confirmPassword"), "lt7kXPiIKwaT+RdC1Uoh9g=="): Text ****** has been set on object 'Object Repository/Page_NFTtrace - Organizations/input__confirmPassword'
+
+2023-07-19 10:40:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_NFTtrace - Organizations/input__confirmPassword'
+
+2023-07-19 10:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_NFTtrace - Organizations/button_Submit")): Object: 'Object Repository/Page_NFTtrace - Organizations/button_Submit' is clicked on
+
+2023-07-19 10:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_NFTtrace - Organizations/button_Submit' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-07-19 10:37:32 - [TEST_SUITE][FAILED] - Create org: Test Cases/NFTrace/Create organization FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '1' of object 'Object Repository/Page_NFTtrace - Organizations/select_Select Organization typeEducationSup_d2b9eb'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1114)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at Create organization.run(Create organization:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689743248911.run(TempTestSuite1689743248911.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CCLNIRANJAN', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.24 (65f30d4e8051..., userDataDir: C:\Users\MDRAHI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c1a517ceff9df0cdeb5a367c72300f6
+*** Element info: {Using=xpath, value=}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-07-19 10:37:32 - [TEST_SUITE][FAILED] - Create org: Test Cases/NFTrace/Create organization FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select option by index '1' of object 'Object Repository/Page_NFTtrace - Organizations/select_Select Organization typeEducationSup_d2b9eb'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.selectOptionByIndex(SelectOptionByIndexKeyword.groovy:93)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword.execute(SelectOptionByIndexKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.selectOptionByIndex(WebUiBuiltInKeywords.groovy:1114)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$selectOptionByIndex$5.call(Unknown Source)
+	at Create organization.run(Create organization:39)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1689743248911.run(TempTestSuite1689743248911.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'CCLNIRANJAN', ip: '192.168.0.8', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.24 (65f30d4e8051..., userDataDir: C:\Users\MDRAHI~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5c1a517ceff9df0cdeb5a367c72300f6
+*** Element info: {Using=xpath, value=}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:432)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:311)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElements(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElements(EventFiringWebDriver.java:182)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementByNormalMethods(WebUiCommonHelper.java:1027)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:919)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:901)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsBySelectedMethod(WebUiCommonHelper.java:896)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsByDefault(WebUiCommonHelper.java:892)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findElementsWithSelfHealing(WebUiCommonHelper.java:737)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElements(WebUiCommonHelper.java:718)
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1376)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.doCall(SelectOptionByIndexKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SelectOptionByIndexKeyword$_selectOptionByIndex_closure1.call(SelectOptionByIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

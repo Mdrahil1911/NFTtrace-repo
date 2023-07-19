@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Select CityBagraBarka KanaBarki Sari_840c27</name>
+   <tag></tag>
+   <elementGuidId>f6c54b62-8de8-4e73-840f-7c8262975cc3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#city</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='city']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>996db395-252c-4247-bb30-835443c81011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>city</value>
+      <webElementGuid>6c9255d6-08c8-4461-bd67-01f41aaddc80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>default-css form-control</value>
+      <webElementGuid>9ade3983-98d9-43a5-95e3-efffc007f5c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>city</value>
+      <webElementGuid>4833abe8-2596-4028-94bb-1d914d25c71b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>options</name>
+      <type>Main</type>
+      <value>[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]</value>
+      <webElementGuid>4366200d-d27e-4b81-b67c-dfb126fe5388</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>defaultoptiontext</name>
+      <type>Main</type>
+      <value>Select City</value>
+      <webElementGuid>d38826bd-cff9-456e-95f3-63c9d3a23836</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select CityBagraBarka KanaBarki SariaBarwadihBhojudihBokaroBunduChaibasaChakradharpurChakuliaChandilChasChatraChiriaDaltonganjDeogarhDhanbadDhanwarDugdaDumkaGarhwaGhatsilaGiridihGobindpurGoddaGomohGopinathpurGuaGumiaGumlaHazaribagHazaribaghHeslaHusainabadJagannathpurJamadobaJamshedpurJamtaraJasidihJhariaJugsalaiJumri TilaiyaKalikapurKandraKankeKatrasKenduadihKharsawanKhuntiKodarmaKujuLateharLohardagaMadhupurMalkeraManoharpurMugmaMushabaniNeturhatNirsaNoamundiPakurPalamuPashchim SinghbhumpatamdaPathardihPurba SinghbhumRamgarhRanchiRaySahibganjSaraikelaSaruberaSijuaSimdegaSiniTopchanchi</value>
+      <webElementGuid>18f25eca-ca85-4b93-bb95-a6b3629bac64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;city&quot;)</value>
+      <webElementGuid>1a292dea-4249-4197-a7bb-02cbf94d425a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='city']</value>
+      <webElementGuid>174c1473-dcf1-46fd-aafc-a571b99d6f00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/following::select[1]</value>
+      <webElementGuid>ea1f15ef-b28a-4caa-951b-eb61ffdd074c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City'])[1]/following::select[1]</value>
+      <webElementGuid>ca323b54-8ee1-4b14-b74a-860fe8651df0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='City is required'])[1]/preceding::select[1]</value>
+      <webElementGuid>d64c9412-046e-416f-bd78-ddc14c9c2ce4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip/Postal Code'])[1]/preceding::select[1]</value>
+      <webElementGuid>545b1670-9313-4f2f-8d9d-afba59654230</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/select</value>
+      <webElementGuid>b68b84cb-480d-4cbb-90e2-3a84f17ffe9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'city' and @name = 'city' and (text() = 'Select CityBagraBarka KanaBarki SariaBarwadihBhojudihBokaroBunduChaibasaChakradharpurChakuliaChandilChasChatraChiriaDaltonganjDeogarhDhanbadDhanwarDugdaDumkaGarhwaGhatsilaGiridihGobindpurGoddaGomohGopinathpurGuaGumiaGumlaHazaribagHazaribaghHeslaHusainabadJagannathpurJamadobaJamshedpurJamtaraJasidihJhariaJugsalaiJumri TilaiyaKalikapurKandraKankeKatrasKenduadihKharsawanKhuntiKodarmaKujuLateharLohardagaMadhupurMalkeraManoharpurMugmaMushabaniNeturhatNirsaNoamundiPakurPalamuPashchim SinghbhumpatamdaPathardihPurba SinghbhumRamgarhRanchiRaySahibganjSaraikelaSaruberaSijuaSimdegaSiniTopchanchi' or . = 'Select CityBagraBarka KanaBarki SariaBarwadihBhojudihBokaroBunduChaibasaChakradharpurChakuliaChandilChasChatraChiriaDaltonganjDeogarhDhanbadDhanwarDugdaDumkaGarhwaGhatsilaGiridihGobindpurGoddaGomohGopinathpurGuaGumiaGumlaHazaribagHazaribaghHeslaHusainabadJagannathpurJamadobaJamshedpurJamtaraJasidihJhariaJugsalaiJumri TilaiyaKalikapurKandraKankeKatrasKenduadihKharsawanKhuntiKodarmaKujuLateharLohardagaMadhupurMalkeraManoharpurMugmaMushabaniNeturhatNirsaNoamundiPakurPalamuPashchim SinghbhumpatamdaPathardihPurba SinghbhumRamgarhRanchiRaySahibganjSaraikelaSaruberaSijuaSimdegaSiniTopchanchi')]</value>
+      <webElementGuid>a43b4682-f412-4955-9a93-5dd1858e3ec1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

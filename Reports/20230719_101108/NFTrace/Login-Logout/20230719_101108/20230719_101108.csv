@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login-Logout,Chrome 114.0.0.0,,,2023-07-19 10:11:11,2023-07-19 10:11:21,9.573s,PASSED
+,,,,,,,
+Test Cases/NFTrace/Login,Chrome 114.0.0.0,,,2023-07-19 10:11:11,2023-07-19 10:11:18,6.440s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-07-19 10:11:12,2023-07-19 10:11:14,2.670s,PASSED
+"navigateToUrl(""https://app.nfttrace.com/login"")",Chrome 114.0.0.0,,,2023-07-19 10:11:14,2023-07-19 10:11:15,1.154s,PASSED
+"setText(findTestObject(""Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Email_email""), ""superadmin@chaincodeconsulting.com"")",Chrome 114.0.0.0,,,2023-07-19 10:11:15,2023-07-19 10:11:17,1.119s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/input_Password_password""), ""lt7kXPiIKwaT+RdC1Uoh9g=="")",Chrome 114.0.0.0,,,2023-07-19 10:11:17,2023-07-19 10:11:17,0.626s,PASSED
+"click(findTestObject(""Object Repository/Page_NFTtrace - Login to Manage and Track Y_f5a9ba/button_Login""))",Chrome 114.0.0.0,,,2023-07-19 10:11:17,2023-07-19 10:11:18,0.544s,PASSED
+,,,,,,,
+Test Cases/NFTrace/Logout,Chrome 114.0.0.0,,,2023-07-19 10:11:18,2023-07-19 10:11:21,2.891s,PASSED
+"click(findTestObject(""Page_NFTtrace - Projects/button_Super Admin""))",Chrome 114.0.0.0,,,2023-07-19 10:11:18,2023-07-19 10:11:20,1.913s,PASSED
+"click(findTestObject(""Page_NFTtrace - Projects/button_Logout""))",Chrome 114.0.0.0,,,2023-07-19 10:11:20,2023-07-19 10:11:21,0.541s,PASSED

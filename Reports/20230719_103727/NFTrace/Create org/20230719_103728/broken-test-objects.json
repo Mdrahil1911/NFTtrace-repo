@@ -8,7 +8,7 @@
       "proposedLocator": "//select[@id\u003d\u0027type\u0027]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_NFTtrace - Organizations/select_Select Organization typeEducationSup_d2b9eb_attributes.png"
+      "pathToScreenshot": "Reports/20230719_103727/NFTrace/Create org/20230719_103728/Object Repository/Page_NFTtrace - Organizations/select_Select Organization typeEducationSup_d2b9eb_attributes.png"
     }
   ]
 }

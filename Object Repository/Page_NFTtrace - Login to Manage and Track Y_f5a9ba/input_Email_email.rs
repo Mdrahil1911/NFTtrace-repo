@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8bdcf1e4-83c2-4fd0-a51e-65fe01a3426d</webElementGuid>
+      <webElementGuid>aa610e35-9307-44fc-8b88-ec15803023fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>3c347bcb-7737-4143-8978-552fce18eba2</webElementGuid>
+      <webElementGuid>c4585c7c-cc16-4e47-bd4f-bad1a80137e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>18869468-2604-4f31-899a-612c04126078</webElementGuid>
+      <webElementGuid>703147d3-c96f-4afc-9c50-108aec4c4cb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>value</name>
       <type>Main</type>
       <value>superadmin@chaincodeconsulting.com</value>
-      <webElementGuid>0a56a569-47e6-485b-99c3-df020d925279</webElementGuid>
+      <webElementGuid>497db49f-a92b-45ba-8b3d-94752c20be30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter your email</value>
-      <webElementGuid>bbe4dd91-ba50-4803-89c0-b39e5000449d</webElementGuid>
+      <webElementGuid>df1cf6d6-63a3-49be-9644-c4935a677421</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>7823d9eb-7dae-4038-8d31-0a2fd2f6ad6f</webElementGuid>
+      <webElementGuid>6e1040ac-e867-4feb-9fdf-1656fb7271e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;body-wrapper&quot;]/div[@class=&quot;loginBox&quot;]/div[@class=&quot;h-100 login_grid p-0 container-fluid&quot;]/div[2]/div[@class=&quot;bg-light justify-content-center align-items-center h-100 row&quot;]/div[@class=&quot;loginContainer col-lg-12&quot;]/div[@class=&quot;bg-transparent shadow-none card&quot;]/div[@class=&quot;p-4 m-1  card-body&quot;]/form[1]/div[@class=&quot;mb-3&quot;]/input[@class=&quot;form-control&quot;]</value>
-      <webElementGuid>e73af30b-2bd3-416e-9131-e7d6ba04390b</webElementGuid>
+      <webElementGuid>3a16cc60-e2cd-4051-8fac-f7c2250975cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='email']</value>
-      <webElementGuid>5e59131b-6a46-4352-9a2a-0d56db9c67f2</webElementGuid>
+      <webElementGuid>8d79a5bb-8c2f-46a1-b4b0-541ac85327c6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div[2]/div/div/div[2]/div/div/div/div/form/div/input</value>
-      <webElementGuid>162b2564-9a00-4feb-b2b6-708e8dfc4abb</webElementGuid>
+      <webElementGuid>fb948739-c3f8-4d6a-b29c-04a84a0f5a4e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>7e7658d8-bac0-49ab-b19f-507e1417a4cc</webElementGuid>
+      <webElementGuid>07c3798a-de75-4d84-96ef-8e0b840ab40b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'email' and @name = 'email' and @placeholder = 'Enter your email']</value>
-      <webElementGuid>e2915994-a421-453c-879b-6f91e9aff47a</webElementGuid>
+      <webElementGuid>d6a339ae-6d0a-4105-ae48-91a76b4cbcc6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
